@@ -59,27 +59,27 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Pages <span class="caret"></span></a>
                                     <ul class="dropdown-menu  multi-level">
                                         <li class="">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">about</a>
+                                            <a asp-action="Index" asp-controller="Home">About</a>
                                         </li>
                                        <li class="">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Skills</a>
+                                            <a asp-action="Index" asp-controller="Home">Skills</a>
                                         </li> 
                                         <li class="">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacts</a>
+                                            <a asp-action="Index" asp-controller="Home">Contacts</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects <span class="caret"></span></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Portfolio <span class="caret"></span></a>
                                     <ul class="dropdown-menu multi-level">
                                         <li class="">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MVC</a>
+                                            <a asp-action="Index" asp-controller="Home">ASP.NET CORE MVC</a>
                                         </li>
                                         <li class="">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Razor Pages</a>
+                                            <a asp-action="Index" asp-controller="Home">Razor Pages</a>
                                         </li>
-                                         <li><a href="~/Template/pages/~/Template/pages/portfolio-3.html">Blazor</a></li>
-                                        <li><a href="~/Template/pages/portfolio-4.html">Web API</a></li>
+                                        <li><a asp-action="Index" asp-controller="Home">Blazor</a></li>
+                                        <li><a asp-action="Index" asp-controller="Home">Web API</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown mega-dropdown mega-tabs">
@@ -96,15 +96,24 @@
                                                 <div class="col">
                                                     <h5>Components</h5>
                                                     <ul class="fa-ul text-s">
-                                                        <li><i class="fa-li fa fa-cubes"></i> <a href="~/Template/pages/features/components/icons.html">Icons</a></li>
-                                                        <li><i class="fa-li fa fa-plus"></i> <a href="~/Template/pages/features/components/counters-countdown.html">Counters</a></li>
-                                                        <li><i class="fa-li fa fa-clock-o"></i> <a href="~/Template/pages/features/components/counters-countdown.html">Countdowns</a></li>
-                                                        <li><i class="fa-li fa fa-tasks"></i> <a href="~/Template/pages/features/components/progress-bars.html">Progress bars</a></li>
-                                                        <li><i class="fa-li fa fa-circle-o"></i> <a href="~/Template/pages/features/components/progress-bars.html">Circle progress bars</a></li>
-                                                        <li><i class="fa-li fa fa-calendar"></i> <a href="~/Template/pages/features/components/timeline.html">Timeline</a></li>
-                                                        <li><i class="fa-li fa fa-map-marker"></i> <a href="~/Template/pages/features/components/maps.html">Google maps</a></li>
-                                                        <li><i class="fa-li fa fa-table"></i> <a href="~/Template/pages/features/components/tables.html">Advanced table</a></li>
-                                                        <li><i class="fa-li fa fa-envelope-o"></i> <a href="~/Template/pages/features/components/php-contact-form.html">Contact form</a></li>
+                                                       <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/gallery/image-1.jpg" data-lightbox-anima="fade-top">
+                                                               Foundations C#
+                                                            </a>
+                                                       </li>
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/gallery/image-1.jpg" data-lightbox-anima="fade-top">
+                                                                Advanced C#
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/gallery/image-1.jpg" data-lightbox-anima="fade-top">
+                                                                Prime c#
+                                                            </a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -112,11 +121,18 @@
                                                 <div class="col">
                                                     <h5>Horizontal menus</h5>
                                                     <ul class="fa-ul text-s">
-                                                        <li><i class="fa-li fa fa-list"></i> <a href="~/Template/pages/features/menus/classic.html">Menu classic</a></li>
-                                                        <li><i class="fa-li fa fa-list"></i> <a href="~/Template/pages/features/menus/classic-transparent.html">Menu classic transparent</a></li>
-                                                        <li><i class="fa-li fa fa-list"></i> <a href="~/Template/pages/features/menus/big-logo.html">Menu big logo</a></li>
-                                                        <li><i class="fa-li fa fa-list"></i> <a href="~/Template/pages/features/menus/subline.html">Menu subline</a></li>
-                                                        <li><i class="fa-li fa fa-list"></i> <a href="~/Template/pages/features/menus/subtitle.html">Menu subtitle</a></li>
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/gallery/image-1.jpg" data-lightbox-anima="fade-top">
+                                                                Foundationals JS
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/gallery/image-1.jpg" data-lightbox-anima="fade-top">
+                                                                Advanced Js
+                                                            </a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -124,11 +140,34 @@
                                                 <div class="col">
                                                     <h5>Image background</h5>
                                                     <ul class="fa-ul text-s">
-                                                        <li><i class="fa-li fa fa-photo"></i> <a href="~/Template/pages/features/titles/image.html">Image background</a></li>
-                                                        <li><i class="fa-li fa fa-photo"></i> <a href="~/Template/pages/features/titles/image-fullscreen.html">Image full-screen</a></li>
-                                                        <li><i class="fa-li fa fa-photo"></i> <a href="~/Template/pages/features/titles/image-fullscreen-parallax.html">Image full-screen parallax</a></li>
-                                                        <li><i class="fa-li fa fa-photo"></i> <a href="~/Template/pages/features/titles/image-parallax.html">Image parallax</a></li>
-                                                        <li><i class="fa-li fa fa-photo"></i> <a href="~/Template/pages/features/titles/image-parallax-ken-burn.html">Image parallax ken-burn</a></li>
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/DegreeCert (1) - Copy - Copy.jpg" data-lightbox-anima="fade-top">
+                                                                University Degree Certificate
+                                                            </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/WAEC ORIGINAL_20180418_0001.jpg" data-lightbox-anima="fade-top">
+                                                                West Africa Examination Council Certificate (WAEC)
+                                                            </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/Statement of Result_20180418_0001 - Copy.jpg" data-lightbox-anima="fade-top">
+                                                                University Statement Of Result
+                                                            </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <i class="fa-li fa fa-cubes"></i>
+                                                            <a class="lightbox" href="~/Template/images/nysc.jpg" data-lightbox-anima="fade-top">
+                                                                National Youth Service Corps Discharge Certificate (NYSC)
+                                                            </a>
+                                                        </li>
+
                                                     </ul>
                                                 </div>
                                             </div>
