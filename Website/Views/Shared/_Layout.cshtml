@@ -1,35 +1,35 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />@* 
+    <meta charset="utf-8" />@*
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> *@
-    <title>@ViewData["Title"] - Website</title>@* 
-     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />  *@
+    <title>@ViewData["Title"] - Website</title>@*
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />  *@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Website.styles.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/Website.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 
     @* <meta charset="utf-8"> *@
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        @* <title>Signflow - Construction And Building Template</title> *@
-        <meta name="description" content="Multipurpose HTML template.">
-        <script src="~/Template/HTWF/scripts/jquery.min.js"></script> 
-        <link rel="stylesheet" href="~/Template/HTWF/scripts/bootstrap/css/bootstrap.css"> 
-        <script src="~/Template/HTWF/scripts/script.js"></script>
-        <link rel="stylesheet" href="~/Template/HTWF/style.css">
-        <link rel="stylesheet" href="~/Template/HTWF/css/content-box.css">
-        <link rel="stylesheet" href="~/Template/HTWF/css/image-box.css">
-        <link rel="stylesheet" href="~/Template/HTWF/css/animations.css">
-        <link rel="stylesheet" href="~/Template/HTWF/css/components.css">
-        <link rel="stylesheet" href="~/Template/HTWF/scripts/flexslider/flexslider.css">
-        <link rel="stylesheet" href="~/Template/HTWF/scripts/magnific-popup.css">
-        <link rel="stylesheet" href="~/Template/HTWF/scripts/php/contact-form.css">
-        <link rel="stylesheet" href="~/Template/HTWF/scripts/social.stream.css">
-        <link rel="icon" href="~/Template/images/favicon.png">
-        <link rel="stylesheet" href="~/Template/skin.css">
-   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @* <title>Signflow - Construction And Building Template</title> *@
+    <meta name="description" content="Multipurpose HTML template.">
+    <script src="~/Template/HTWF/scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="~/Template/HTWF/scripts/bootstrap/css/bootstrap.css">
+    <script src="~/Template/HTWF/scripts/script.js"></script>
+    <link rel="stylesheet" href="~/Template/HTWF/style.css">
+    <link rel="stylesheet" href="~/Template/HTWF/css/content-box.css">
+    <link rel="stylesheet" href="~/Template/HTWF/css/image-box.css">
+    <link rel="stylesheet" href="~/Template/HTWF/css/animations.css">
+    <link rel="stylesheet" href="~/Template/HTWF/css/components.css">
+    <link rel="stylesheet" href="~/Template/HTWF/scripts/flexslider/flexslider.css">
+    <link rel="stylesheet" href="~/Template/HTWF/scripts/magnific-popup.css">
+    <link rel="stylesheet" href="~/Template/HTWF/scripts/php/contact-form.css">
+    <link rel="stylesheet" href="~/Template/HTWF/scripts/social.stream.css">
+    <link rel="icon" href="~/Template/images/favicon.png">
+    <link rel="stylesheet" href="~/Template/skin.css">
+
 </head>
 <body>
     <div id="preloader"></div>
@@ -51,8 +51,8 @@
                             <ul class="nav navbar-nav">
                                 <li class="dropdown active">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Home <span class="caret"></span></a>
-                                    <ul class="dropdown-menu multi-level"> 
-                                        <li><a asp-action="Index" asp-controller="Home">Home Page</a></li> 
+                                    <ul class="dropdown-menu multi-level">
+                                        <li><a asp-action="Index" asp-controller="Home">Home Page</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -61,9 +61,9 @@
                                         <li class="">
                                             <a asp-action="About" asp-controller="Page">About</a>
                                         </li>
-                                       <li class="">
+                                        <li class="">
                                             <a asp-action="Skill" asp-controller="Page">Skills</a>
-                                        </li> 
+                                        </li>
                                         <li class="">
                                             <a asp-action="Contact" asp-controller="Page">Contacts</a>
                                         </li>
@@ -73,35 +73,35 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Portfolio <span class="caret"></span></a>
                                     <ul class="dropdown-menu multi-level">
                                         <li class="">
-                                            <a asp-action="Index" asp-controller="Home">MVC</a>
+                                            <a asp-action="MVC" asp-controller="Portfolio">MVC</a>
                                         </li>
                                         <li class="">
-                                            <a asp-action="Index" asp-controller="Home">Razor Pages</a>
+                                            <a asp-action="Razor" asp-controller="Portfolio">Razor Pages</a>
                                         </li>
-                                        <li><a asp-action="Index" asp-controller="Home">Blazor</a></li>
-                                        <li><a asp-action="Index" asp-controller="Home">Web API</a></li>
+                                        <li><a asp-action="Blazor" asp-controller="Portfolio">Blazor</a></li>
+                                        <li><a asp-action="WebApiP" asp-controller="Portfolio">Web API</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown mega-dropdown mega-tabs">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Certifications<span class="caret"></span></a>
                                     <div class="mega-menu dropdown-menu multi-level row bg-menu">
                                         <div class="tab-box" data-tab-anima="fade-left">
-                                                <ul class="nav nav-tabs">
-                                                    <li class="active"><a href="#" class="text-uppercase">C# & Javascript</a></li>
-                                                    <li><a href="#" class="text-uppercase">SQL</a></li>
-                                                    <li><a href="#" class="text-uppercase">others</a></li>
-                                                </ul>
-                                          
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#" class="text-uppercase">C# & Javascript</a></li>
+                                                <li><a href="#" class="text-uppercase">SQL</a></li>
+                                                <li><a href="#" class="text-uppercase">others</a></li>
+                                            </ul>
+
                                             <div class="panel active">
                                                 <div class="col">
                                                     <h5>Components</h5>
                                                     <ul class="fa-ul text-s">
-                                                       <li>
+                                                        <li>
                                                             <i class="fa-li fa fa-cubes"></i>
                                                             <a class="lightbox" href="~/Template/images/CSharpCert.PNG" data-lightbox-anima="fade-top">
-                                                               Foundational C# With Microsoft
+                                                                Foundational C# With Microsoft
                                                             </a>
-                                                       </li>
+                                                        </li>
                                                         <li>
                                                             <i class="fa-li fa fa-cubes"></i>
                                                             <a class="lightbox" href="~/Template/images/gallery/image-1.jpg" data-lightbox-anima="fade-top">
@@ -240,8 +240,8 @@
     <script src="~/Template/HTWF/scripts/jquery.slimscroll.min.js"></script>
     <script src="~/Template/HTWF/scripts/smooth.scroll.min.js"></script>
     @* <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@ 
-    <script src="~/js/site.js" asp-append-version="true"></script> 
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
