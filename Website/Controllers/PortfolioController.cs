@@ -4,25 +4,19 @@ namespace Website.Controllers
 {
     public class PortfolioController : Controller
     {
-        public IActionResult MVC()
+        public IActionResult Web()
         {
             return View();
         }
 
-        public IActionResult Razor()
-        {
-           return View();
-        }
-
-        public IActionResult Blazor() 
-        { 
-            return View();
-        }
-
-        public IActionResult WebApi()
+        public IActionResult Mobile()
         {
             return View();
         }
 
+        public IActionResult Desktop()
+        {
+            return View();
+        }
     }
 }
